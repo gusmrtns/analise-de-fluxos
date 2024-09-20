@@ -8,6 +8,7 @@ class Block:
         self.in_set = set()
         self.out_set = set()
 
+
     def calculate_def_use(self):
         assigned_vars = set()
         for instr in self.instructions:
